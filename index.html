@@ -119,11 +119,11 @@
 
     /* HERO */
     #hero {
-      min-height: 100vh;
+      min-height: 80vh;
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
-      padding: 12rem 6vw 6rem;
+      padding: 12rem 6vw 1rem;
       position: relative;
       overflow: hidden;
     }
@@ -221,7 +221,7 @@
     }
 
     /* SERVICES */
-    #services { border-top: 1px solid var(--border); }
+    #services { border-top: 1px solid var(--border); padding-top: 3rem; }
 
     .services-header {
       display: flex;
@@ -271,7 +271,7 @@
       margin-bottom: 0.5rem;
     }
 
-    .service-card p { font-size: 0.875rem; font-weight: 500; color: var(--muted); line-height: 1.6; }
+    .service-card p { font-size: 0.875rem; font-weight: 500; color: #8a8480; line-height: 1.6; }
 
     /* CONTACT */
     #contact {
@@ -347,7 +347,7 @@
     }
 
     @media (max-width: 768px) {
-      nav ul { display: none; }
+      nav ul { display: flex; }
       .services-header { flex-direction: column; align-items: flex-start; }
     }
   </style>
@@ -372,8 +372,8 @@
   <section id="hero">
     <div class="hero-glow"></div>
     <span class="hero-tag" data-en="IT Solutions · Tbilisi, Georgia" data-ka="IT გადაწყვეტილებები · თბილისი, საქართველო">IT Solutions · Tbilisi, Georgia</span>
-    <h2 data-en="We handle the tech. <em>You run the business.</em>" data-ka="ტექნიკურ მხარეს ჩვენ მივხედავთ.<br><em>თქვენ ბიზნესზე იზრუნეთ</em>">We handle the tech. <em>You run the business.</em></h2>
-    <p class="hero-sub" data-en="FoxieDesk handles the technology so you don't have to — Build your business, we handle the rest." data-ka="FoxieDesk ზრუნავს თქვენს ტექნოლოგიაზე — ააშენეთ თქვენი ბიზნესი, დანარჩენს ჩვენ გავაკეთებთ.">FoxieDesk handles the technology so you don't have to — from websites and networking to security and IT support. Build your business, we handle the rest.</p>
+    <h2 data-en="We handle the tech. <em>You run the business.</em>" data-ka="<em>ბიზნესი თქვენზე</em><br>ტექნოლოგია ჩვენზე">We handle the tech. <em>You run the business.</em></h2>
+    <p class="hero-sub" data-en="FoxieDesk handles the technology so you don't have to — Build your business, we handle the rest." data-ka="FoxieDesk ზრუნავს თქვენს ტექნოლოგიაზე, რათა თქვენ ბიზნესის განვითარებაზე იზრუნოთ.">FoxieDesk handles the technology so you don't have to — from websites and networking to security and IT support. Build your business, we handle the rest.</p>
   </section>
 
   <section id="services">
@@ -407,14 +407,14 @@
       </div>
       <div class="service-card">
         <div class="service-icon">⚡</div>
-        <h3 data-en="Anything Tech" data-ka="ნებისმიერი ტექნიკური საჭიროება">Anything Tech</h3>
-        <p data-en="Automation, scripting, cloud setup, backups — if your business needs it and it's technical, we can probably help." data-ka="ავტომატიზაცია, სკრიპტინგი, CRM, Cloud სისტემები, ციფრული უსაფრთხოება — თუ ეს ტექნიკურია, დიდი ალბათობით ჩვენ დაგეხმარებით.">Automation, scripting, cloud setup, backups — if your business needs it and it's technical, we've probably done it.</p>
+        <h3 data-en="Anything Else Tech" data-ka="სხვა ტექნიკური საჭიროება">Anything Tech</h3>
+        <p data-en="Automation, scripting, cloud setup, backups — if your business needs it and it's technical, we can probably help." data-ka="ავტომატიზაცია, სკრიპტინგი, CRM, Cloud სისტემები, ციფრული უსაფრთხოება. ყველაფერი რაც ტექნიკურია.">Automation, scripting, cloud setup, backups — if your business needs it and it's technical, we've probably done it.</p>
       </div>
     </div>
   </section>
 
   <section id="contact">
-    <a href="mailto:nika@foxiedesk.ge" class="contact-main">nika@foxiedesk.ge</a>
+    <a href="mailto:service@foxiedesk.ge" class="contact-main">service@foxiedesk.ge</a>
     <a href="tel:+995595xxxxxx" class="contact-main">+995 XXX XXX XXX</a>
     <div class="contact-apps">
       <a href="https://wa.me/995595xxxxxx" class="app-icon" target="_blank">
@@ -456,3 +456,4 @@ setLang("ka");
 
 </body>
 </html>
+
